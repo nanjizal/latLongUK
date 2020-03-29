@@ -16,9 +16,9 @@ abstract Plotting( InternalPlot ) to InternalPlot from InternalPlot {
         return oStoXY( flat );
     }
     public inline
-    function oStoXY( flat: Flat ): XY {
-        return { x: flat.east * this.scale +  this.dx
-               , y: this.negY - flat.north * this.scale + this.dy };
+    function oStoXY( en: EastNorth ): XY {
+        return { x: en.east * this.scale +  this.dx
+               , y: this.negY - en.north * this.scale + this.dy };
     }
     public inline
     function wideGrid( minLat: Int  = 49

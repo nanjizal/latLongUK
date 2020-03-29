@@ -36253,9 +36253,9 @@
 		<meta><m n=":impl"/></meta>
 	</toXY>
 	<oStoXY public="1" get="inline" set="null" line="18" static="1">
-		<f a="this:flat">
+		<f a="this:en">
 			<c path="latLongUK.helpers.InternalPlot"/>
-			<x path="latLongUK.helpers.Flat"/>
+			<c path="latLongUK.EastNorth"/>
 			<c path="latLongUK.helpers.XY"/>
 		</f>
 		<meta><m n=":impl"/></meta>
@@ -36311,9 +36311,9 @@
 			<meta><m n=":impl"/></meta>
 		</toXY>
 		<oStoXY public="1" get="inline" set="null" line="18" static="1">
-			<f a="this:flat">
+			<f a="this:en">
 				<c path="latLongUK.helpers.InternalPlot"/>
-				<x path="latLongUK.helpers.Flat"/>
+				<c path="latLongUK.EastNorth"/>
 				<c path="latLongUK.helpers.XY"/>
 			</f>
 			<meta><m n=":impl"/></meta>
