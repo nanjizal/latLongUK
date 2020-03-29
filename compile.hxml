@@ -1,0 +1,15 @@
+-js bin/test.js
+-cp src
+#-debug
+# html/js setup of simple webgl
+-lib htmlHelper
+-lib uk
+-main latLongUK.demo.Main
+#-D no-inline
+-D js-flatten 
+-dce full
+--next
+# generate html
+-cmd echo '<!DOCTYPE html><meta charset="UTF-8"><html><body><script src="test.js"></script></body></html>' >bin/index.html
+# open html on mac os.
+-cmd open bin/index.html

@@ -1,0 +1,12 @@
+{
+  "name": "latLongUK",
+  "url": "https://github.com/nanjizal/latLongUK",
+  "license": "MIT",
+  "tags": ["javascript","cross"],
+  "description": "Latitude & Longitude < - > Ordnance Survey National Grid reference system",
+  "version": "0.0.1",  
+  "releasenote": "See https://github.com/nanjizal/latLongUK/blob/master/readme.md",
+  "classPath"    : "src",
+  "contributors": ["Nanjizal"],
+  "dependencies": {}
+}

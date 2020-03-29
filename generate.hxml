@@ -1,0 +1,11 @@
+#-lib latLongUK
+-lib htmlHelper
+-lib uk
+-D latLongUKDoc
+-D doc-gen
+--macro include('latLongUK')
+-cp src
+-main latLongUK.LatLongUKDoc
+--no-output
+-xml output.xml
+-js foo

@@ -1,0 +1,4 @@
+-cmd haxe generate.hxml
+-cmd haxelib run dox -i output.xml --title "latLongUK API documentation" -D themeColor 0x2C4E76 --toplevel-package latLongUK
+-cmd cd pages
+-cmd open index.html
