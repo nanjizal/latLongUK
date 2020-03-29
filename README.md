@@ -8,7 +8,7 @@ No dependancies accept for using demo.
 Demo draws a latitude and longtitude grid with Ordnance Survey perspective, uses my **uk** repo for background image, and my **htmlHelper** repo for canvas drawing.
 
 documentation:  
-<img src="/latLongUKdoc.png" width="500" />
+<img src="/latLongUKdoc.png" width="500" />  
 [link to docs](https://nanjizal.github.io/latLongUK/pages/index.html)
 
 
